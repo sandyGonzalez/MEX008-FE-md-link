@@ -1,15 +1,17 @@
 {
-  "name": "md-links",
-  "version": "0.1.0",
+  "name": "mdlinks-sandy",
+  "version": "0.2.0",
   "description": "## Índice",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,7 @@
   ],
   "author": "Sandy Gonzalez",
   "license": "ISC",
-  "bin":{
+  "bin": {
     "search-links": "./index.js"
   },
   "bugs": {
