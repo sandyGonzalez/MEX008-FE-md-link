@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const readFileMd = require('./modules/readFileMd');
 const getFileMd = require('./modules/getFile');
 const getLinks = require('./modules/getLinks');
@@ -15,8 +16,8 @@ const mdLinks =(pathFile,options)=>{
 
 
   }else {
-    console.log("archivo inválido");
-    return  "Archivo inválido";
+    console.log("El archivo no es markdown");
+    return  "Archivo no es markdown";
   }
 };
 
