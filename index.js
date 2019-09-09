@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const readFileMd = require('./modules/readFileMd');
-const getFileMd = require('./modules/getFile');
+const getFileMd = require('./modules/getFileMd');
 const getLinks = require('./modules/getLinks');
 
 
