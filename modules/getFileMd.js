@@ -11,7 +11,6 @@ module.exports = getFileMd;
 
 
 
-
 // const getFileMd = (inputFile) => {
 //   return path.extname(inputFile) === ".md";
 // };
