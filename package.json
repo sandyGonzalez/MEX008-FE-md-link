@@ -1,5 +1,5 @@
 {
-  "name": "mdlinks-sandy",
+  "name": "mdlinks-sg",
   "version": "0.2.0",
   "description": "## Índice",
   "main": "index.js",
@@ -26,7 +26,7 @@
   "author": "Sandy Gonzalez",
   "license": "ISC",
   "bin": {
-    "search-links": "./index.js"
+    "mdlinks-sg": "./cli.js"
   },
   "bugs": {
     "url": "https://github.com/sandyGonzalez/MEX008-FE-md-link/issues"

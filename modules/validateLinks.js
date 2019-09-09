@@ -1,5 +1,18 @@
 const fetch = require('node-fetch');
+const path = require('path');
 
-fetch('https://example.com') .then(response => response.json())
- .then(data => { console.log(data) })
-  .catch(err => ...)
+const getValidate = (arr) => {
+  arr.forEach(element => {
+    let link = element.href;
+    fetch(link)
+      .then((link) => {
+        link.url;
+        link.statusText;
+         console.log (`{ href: ${link.url}
+  status: ${link.statusText}
+  File: ${path.resolve()} }`);
+      });
+  });
+};
+
+module.exports 
